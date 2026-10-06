@@ -1,0 +1,28 @@
+﻿
+
+#include <iostream>
+using namespace std;
+void Fuction2();
+void Function4()
+{
+    cout << "Hi, I am Function 4." << endl;
+}
+void Function3()
+{
+    Function4();
+}
+void Function2()
+{
+    Function3();
+}
+void Function1()
+{
+    Function2();
+}
+int main()
+{
+    Function1();
+    return 0;
+    
+}
+
